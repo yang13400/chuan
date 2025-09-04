@@ -1,7 +1,7 @@
 [rewrite_local]
 ^https?://[^\s]+?\.m3u8.*$ url script-request-header https://raw.githubusercontent.com/yang13400/chuan/refs/heads/main/chuan.js
 [mitm] 
-hostname = %APPEND%
+hostname = hostname = billing.chaton.ai,  *.ysp.cctv.cn, testflight.apple.com,cdn.cmgadx.com,www.budingscan.com, pub-ed73f90b0ba34fb2ae5fe582a8078737.r2.dev, 122.114.171.79:566, defaultts.tc.qq.com, v16m-default.akamaized.net, %APPEND% 171.115.220.84:8762, nmmp.com, billing.chaton.ai, billing.chaton.ai, yz.*.top, 45.207.213.18, yz.mdmv2.top, a.xinzhi.space, 124.223.177.85:287, omts.tc.qq.com, 111.229.140.167:8762, gnjk.*.com, mfjk.*.com, buyaoda.*.com, *.kuwo.cn, *.lrts.me, vip1.kuwo.cn, *.shjsvkj.cn, *.qxoovv.cn, *.shoknkj.cn, *.shedbgs.cn, *.shnyigs.cn, *.sholfgs.cn, *.shjtqgs.cn, *.shjtpkj.cn, *.hfsudf.cn, *.qohzni.cn, 120play.*.cn, h5play.*.com, long.*.cn, api.jycds.cn, *.ysp.cctv.cn, cdn.cmgadx.com, 110.40.61.13:580, *.ysp.cctv.cn, cdn.cmgadx.com, api.xbxxhz.com, epbox.gongfudou.com,www.budingscan.com, pub-ed73f90b0ba34fb2ae5fe582a8078737.r2.dev, 122.114.171.79:566, defaultts.tc.qq.com, v16m-default.akamaized.net, %APPEND% 171.115.220.84:8762, nmmp.com, billing.chaton.ai, billing.chaton.ai, yz.*.top, 45.207.213.18, yz.mdmv2.top, a.xinzhi.space, 124.223.177.85:287, omts.tc.qq.com, 111.229.140.167:8762, gnjk.*.com, mfjk.*.com, buyaoda.*.com, *.kuwo.cn, *.lrts.me, vip1.kuwo.cn, *.shjsvkj.cn, *.qxoovv.cn, *.shoknkj.cn, *.shedbgs.cn, *.shnyigs.cn, *.sholfgs.cn, *.shjtqgs.cn, *.shjtpkj.cn, *.hfsudf.cn, *.qohzni.cn, 120play.*.cn, h5play.*.com, long.*.cn, api.jycds.cn, *.ysp.cctv.cn, cdn.cmgadx.com, 110.40.61.13:580, *.ysp.cctv.cn, cdn.cmgadx.com,api.xbxxhz.com, epbox.gongfudou.com
 
 
 
