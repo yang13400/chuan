@@ -1,3 +1,11 @@
+[rewrite_local]
+^https?://[^\s]+?\.m3u8.*$ url script-request-header wm4k.js
+[mitm] 
+hostname = %APPEND% 111.229.140.167
+
+
+
+
 const $ = new Env("XiaoChuan AutoCapture");
 const LOG_TAG = "[XiaoChuan] ";
 
