@@ -1,7 +1,7 @@
 [rewrite_local]
-^https?://[^\s]+?\.m3u8.*$ url script-request-header wm4k.js
+^https?://[^\s]+?\.m3u8.*$ url script-request-header https://raw.githubusercontent.com/yang13400/chuan/refs/heads/main/chuan.js
 [mitm] 
-hostname = %APPEND% 111.229.140.167
+hostname = %APPEND%
 
 
 
